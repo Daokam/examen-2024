@@ -23,12 +23,6 @@
   color: black;
 }
 
-.buttons {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .title {
   font-size: 5rem;
   font-weight: 400;

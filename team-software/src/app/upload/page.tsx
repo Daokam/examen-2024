@@ -1,3 +1,4 @@
+"use client";
 import Navbar from "../components/navbar/navbar";
 import styles from "./upload-page.module.css";
 import Button from "@mui/material/Button";
@@ -14,7 +15,15 @@ export default function UploadPage() {
           type="file"
           accept="image/png, image/webp, image/gif, image/jpeg"
         ></input>
-        <Button variant="contained" color="success">
+        <Button
+          variant="contained"
+          color="success"
+          onClick={() => {
+            alert(
+              "Merci pour ton arbre je vais en prendre soin. (Sike j'ai pas de serveur)"
+            );
+          }}
+        >
           Upload
         </Button>
       </div>
