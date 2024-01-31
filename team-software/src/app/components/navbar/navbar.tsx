@@ -28,6 +28,20 @@ export default function Navbar() {
           </div>
         </Link>
         <Link
+          href="/about"
+          style={{
+            width: "100%",
+            height: "100px",
+            textDecoration: "none",
+            color: "black",
+            borderTop: "1px solid black",
+          }}
+        >
+          <div className={styles.navbarButton}>
+            <h1>About</h1>
+          </div>
+        </Link>
+        <Link
           href="/upload"
           style={{
             width: "100%",
