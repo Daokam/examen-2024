@@ -1,0 +1,45 @@
+.arbrePage {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #5a5a5a;
+}
+
+.arbreBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
+  width: 50vw;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  color: black;
+}
+
+.buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 70vw;
+  color: rgb(38, 222, 38);
+}
+
+.listButton {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
